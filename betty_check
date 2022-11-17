@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+* main - functions that is taking in an integer value
+* Description: using the main function
+* this program prints strings
+* Return: 0
+*/
+int main() {
+    int a;
+    int c;
+    for(a = 0; a<=5; a++)
+    {
+    printf("This is a simple shell project\n");
+        for(c = 2; c>=0; c--)
+        {
+        puts("Abolarinwa and Chukwudalu are partners for this project");
+        puts("Amazing right!?\n");
+        }
+    printf("okay,bye!.\n");
+    }
+    return 0;
+}
